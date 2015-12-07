@@ -1,0 +1,5 @@
+.reveal h1 { font-size: 2.9em !important; }
+.reveal li { margin: 10px 0 !important; }
+.reveal a, 
+.reveal a:hover { color: white !important; }
+.reveal figcaption { display: none !important; }
