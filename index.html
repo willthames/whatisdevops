@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Will Thames" />
+  <meta name="dcterms.date" content="2015-12-10" />
+  <title>What is DevOps</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+  <link rel="stylesheet" href="overrides.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/blood.css" id="theme">
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'reveal.js/css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">What is DevOps</h1>
+    <h2 class="author">Will Thames</h2>
+    <h3 class="date">10 December 2015</h3>
+</section>
+
+<section id="devops" class="slide level1">
+<h1>DevOps</h1>
+<blockquote>
+<p>DevOps is Developers and Operations working together for the good of the business</p>
+</blockquote>
+</section>
+<section id="devops-1" class="slide level1">
+<h1>DevOps</h1>
+<ul>
+<li>A bit like Agile in that it extends the Definition of Done</li>
+</ul>
+</section>
+<section id="a-little-bit-of-history" class="slide level1">
+<h1>A little bit of history</h1>
+<ul>
+<li>10 deploys a day!</li>
+<li>DevOps is coined</li>
+</ul>
+</section>
+<section id="this-is-all-obvious-right" class="slide level1">
+<h1>This is all obvious, right?</h1>
+<ul>
+<li>Misaligned incentives held us back</li>
+</ul>
+<p>{%aside%} Developers are incentivized to deliver features (bonuses and sense of achievement) Operations are incentivized to maintain availability (bonuses and being paged) {%aside%}</p>
+</section>
+<section id="is-devops-just-continuous-delivery" class="slide level1">
+<h1>Is DevOps just Continuous Delivery?</h1>
+<p>{% aside %} * Continuous Delivery relies on DevOps. You'll struggle to attain it without the other key elements... {% aside %}</p>
+</section>
+<section id="cams" class="slide level1">
+<h1>CAMS</h1>
+<ul>
+<li>Culture</li>
+<li>Automation</li>
+<li>Measurement</li>
+<li>Sharing</li>
+</ul>
+<p>{% aside %} culture: trust, collaboration, continuous improvemtn automation: ability to provision and deploy without manual steps measurement: knowing what the business goals are and whether your improvemts are adding business value sharing: using the same source control, the same automation, the same measuring systems and the same targets {% aside %}</p>
+</section>
+<section id="what-have-we-done" class="slide level1">
+<h1>What have we done</h1>
+<ul>
+<li>Completely open automation</li>
+<li>Developers contributing to automation</li>
+</ul>
+</section>
+<section id="what-isnt-devops" class="slide level1">
+<h1>What isn't DevOps</h1>
+<ul>
+<li>NoOps</li>
+<li>Panacea</li>
+<li></li>
+</ul>
+<figure>
+<img src="webapp.png" alt="webapp inheritance graph" /><figcaption>webapp inheritance graph</figcaption>
+</figure>
+</section>
+    </div>
+  </div>
+
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,         // Display controls in the bottom right corner
+        progress: true,         // Display a presentation progress bar
+        history: true,          // Push each slide change to the browser history
+        center: true,                       // Vertical centering of slides
+        maxScale: 1.5,                  // Bounds for smallest/largest possible content scale
+        slideNumber: false,                // Display the page number of the current slide
+        theme: 'blood', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
