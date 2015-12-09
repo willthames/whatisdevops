@@ -4,8 +4,8 @@
 
 # What is DevOps
 
-* Slides https://willthames.github.io/whatisdevops
-* Source https://github.com/willthames/whatisdevops
+* Slides [https://willthames.github.io/whatisdevops](https://willthames.github.io/whatisdevops)
+* Source [https://github.com/willthames/whatisdevops](https://github.com/willthames/whatisdevops)
 
 # DevOps
 
@@ -38,10 +38,10 @@ DevOps was coined when Agile Systems Infrastructure was too long
 * Misaligned incentives held us back
 
 <aside class="notes">
-Developers are incentivized to deliver
-features (bonuses and sense of achievement)
-Operations are incentivized to maintain
-availability (bonuses and being paged)
+<li>Developers are incentivized to deliver
+features (bonuses and sense of achievement)</li>
+<li>Operations are incentivized to maintain
+availability (bonuses and being paged)</li>
 </aside>
 
 # CAMS
@@ -52,13 +52,15 @@ availability (bonuses and being paged)
 - Sharing
 
 <aside class="notes">
-culture: trust, collaboration, continuous improvement
-automation: ability to provision and deploy without manual
-  steps
-measurement: knowing what the business goals are and whether
-  your improvemts are adding business value
-sharing: accountability, using the same source control, 
-  the same automation, the same measuring systems
+<ul style="font-size:smaller;" >
+<li>culture: trust, collaboration, continuous improvement</li>
+<li>automation: ability to provision and deploy without manual
+  steps</li>
+<li>measurement: knowing what the business goals are and whether
+  your improvemts are adding business value</li>
+<li>sharing: accountability, using the same source control, 
+  the same automation, the same measuring systems</li>
+</ul>
 </aside>
 
 # What have we done
