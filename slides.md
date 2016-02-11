@@ -1,6 +1,6 @@
 % What is DevOps
 % Will Thames
-% 10 December 2015
+% 11 February 2016
 
 # What is DevOps
 
